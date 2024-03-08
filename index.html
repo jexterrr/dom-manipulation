@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>DOM MANIPULATION | EDUCATIONAL PURPOSES</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="video-container">
+      <video autoplay muted loop id="video-bg">
+        <source src="bgVid.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div id="cardContainer" class="row">
+        <div class="col-md-6 mx-auto">
+          <div class="card border rounded">
+            <div
+              class="card-header text-center pb-2"
+              style="background-color: rgb(244, 173, 41)"
+            >
+              <h4>DOM MANIPULATION ON A BOOTSTRAP</h4>
+            </div>
+            <div class="card-body px-3">
+              <form id="add-item col-md-12">
+                <div class="form-group">
+                  <h5 for="inputTitle">Title</h5>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputTitle"
+                    placeholder="Enter title"
+                  />
+                </div>
+                <div class="form-group pt-1">
+                  <h5 for="inputContent">Content</h5>
+                  <textarea
+                    class="form-control"
+                    id="inputContent"
+                    rows="3"
+                    placeholder="Enter content"
+                  ></textarea>
+                </div>
+                <button
+                  type="button"
+                  class="btn float-right mb-3"
+                  id="btnAdd"
+                  style="background-color: rgb(246, 195, 100)"
+                >
+                  Add
+                </button>
+              </form>
+
+              <div class="border rounded appendDiv col-md-12"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
